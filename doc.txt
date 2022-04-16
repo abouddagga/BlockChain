@@ -1,0 +1,12 @@
+Start in Block Class contain:
+    1- timestamp : time of creation the block.
+    2- transaction
+    3- previousHash: hash of previous block.
+    4- nonce: used in PoW. 
+
+the blockChain keep the blocks and also contain method to add new block to the chain and
+one to check if the chain is correct by test the hash of preBlock and the current hash if it's correct
+
+
+    proof-of-work used to confirm the transaction and creates a new block to the chain.
+but this operation need a high performance to done but still possioble.
